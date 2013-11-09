@@ -13,6 +13,12 @@ It supports [Application-only authentication](https://dev.twitter.com/docs/auth/
 To get started just **create application** on [Twitter developer site](https://dev.twitter.com/apps/)
 and follow instruction below.
 
+  It's really **simple**, take a look:
+
+    $twitter = new \TwitterPhp\RestApi($consumerKey,$consumerSecret,$accessToken,$accessTokenSecret);
+    $connectionUser = $twitter->connectAsUser();
+    $connectionUser->post('statuses/update',array('status' => 'Hello World!'));
+
 1. Installation
 ------------
 

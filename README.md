@@ -7,8 +7,8 @@ Copyright (c) 2013 Albert Kozłowski
 ------------
 
 Twitter-PHP is a simple PHP wrapper for Twitter 1.1 REST API.  
-It supports [Application-only authentication](https://dev.twitter.com/docs/auth/application-only-auth)
- and [Single-user OAuth](https://dev.twitter.com/docs/auth/oauth/single-user-with-examples).
+It supports [application-only authentication](https://dev.twitter.com/docs/auth/application-only-auth)
+ and [single-user OAuth](https://dev.twitter.com/docs/auth/oauth/single-user-with-examples).
 
 To get started just **create application** on [Twitter developer site](https://dev.twitter.com/apps/)
 and follow instruction below.
@@ -70,7 +70,7 @@ and follow instruction below.
 3. Examples
 ------------
 
-<?php
+    <?php
     
     include 'RestApi.php';
     
@@ -129,7 +129,6 @@ and follow instruction below.
 - [REST API v1.1 Limits](https://dev.twitter.com/docs/rate-limiting/1.1/limits)
 - [Application-only authentication](https://dev.twitter.com/docs/auth/application-only-auth)
 - [Single-user OAuth](https://dev.twitter.com/docs/auth/oauth/single-user-with-examples)
-
 
 5. License
 ------------

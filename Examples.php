@@ -16,7 +16,7 @@ $accessTokenSecret = 'YOUR ACCESS TOKEN SECRET';
  * Consumer key and Consumer secret are required
  * Access Token and Access Token secret are required to use api as a user
  */
-    $twitter = new \TwitterPhp\RestApi($consumerKey,$consumerSecret,$accessToken,$accessTokenSecret);
+$twitter = new \TwitterPhp\RestApi($consumerKey,$consumerSecret,$accessToken,$accessTokenSecret);
 
 /*
  * Connect as application

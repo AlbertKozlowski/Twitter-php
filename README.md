@@ -1,7 +1,7 @@
 Twitter-PHP
 ============================
 The MIT License (MIT)  
-Copyright (c) 2013 Albert Kozłowski
+Copyright (c) 2013 [Albert Kozłowski](https://twitter.com/albertkoz)
 
 1. About
 ------------
